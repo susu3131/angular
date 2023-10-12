@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'bootstrap/scss/functions';
+// 客製 variables
+@import './assets/scss/variables';
+//引入相關
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+// 客製 utilities
+@import './assets/scss/utilities';
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
